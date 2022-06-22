@@ -2,6 +2,14 @@
 
 Bring Emacs key bindings to Neovim. Ported the navigation & editing keys from Vimacs.
 
+## Installation
+
+### packer.nvim
+
+```lua
+use({ "sei40kr/nvimacs", event = { "InsertEnter *", "CmdlineEnter *" } })
+```
+
 ## Keymap
 
 | Mode             | Key      | Description                                                                              |
