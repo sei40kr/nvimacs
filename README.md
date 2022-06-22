@@ -23,3 +23,7 @@ Bring Emacs key bindings to Neovim. Ported the navigation & editing keys from Vi
 | Insert           | `<C-v>`  | Scroll the window 1 page downwards (equivalent to `<PageDown>`)                          |
 | Insert           | `<M-d>`  | Kill characters forward until encountering the end of a word                             |
 | Insert           | `<M-k>`  | Kill from cursor to end of sentence (equivalent to `<C-o>d)`)                            |
+
+## Known Issues
+
+- For somehow, the keymap in Command Line is not working.
